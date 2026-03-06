@@ -14,3 +14,13 @@ python scripts/make_sample_data.py
 
 ## Lancer le pipeline
 python -m src.cli run --input-dir data/sample --output-dir outputs --plot
+
+## Run example
+
+Generate sample data
+
+python scripts/make_sample_data.py
+
+Run the analysis pipeline
+
+python -m src.cli run --input-dir data/sample --output-dir outputs --plot
